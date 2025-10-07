@@ -1,5 +1,9 @@
 import Link from "next/link";
 
+export const metadata = {
+  title : "Services"
+}
+
 export default function Servicess() {
   console.log("Running in Next.js")
   return (
